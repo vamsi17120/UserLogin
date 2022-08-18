@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: vamsiuserlogin 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vamsiuserlogin
+  template:
+    metadata:
+      labels:
+        app: vamsiuserlogin 
+    spec:
+      containers:
+        - name: vamsiuserlogin 
+          image: pmsregistery.azurecr.io/vamsiuserlogin
+          ports:
+          - containerPort: 80
