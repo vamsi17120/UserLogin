@@ -4,7 +4,7 @@
 
 namespace UserLogin.Migrations
 {
-    public partial class first : Migration
+    public partial class second : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

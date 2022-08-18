@@ -11,8 +11,8 @@ using UserLogin.Models;
 namespace UserLogin.Migrations
 {
     [DbContext(typeof(UserContext))]
-    [Migration("20220816043454_first")]
-    partial class first
+    [Migration("20220818120102_second")]
+    partial class second
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
